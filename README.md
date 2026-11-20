@@ -1,25 +1,16 @@
-# test-repo38
-repozytorium testowe - demonstracyjne
-# nowy tekst
-tu dopisałem nowy tekst
+# test-repo38 — Warsztat Programisty
 
-## Lab 01 — C#
+Repozytorium demonstracyjne Kalean420. Zawiera istniejące zadania `Lab01` oraz rozwiązania do czterech działów kursu.
 
-Rozwiązania trzech zadań z laboratorium znajdują się w osobnych projektach konsolowych .NET 8. Każdy program sprawdza, czy wpisano poprawną, skończoną liczbę. Wpisuj liczby zgodnie z ustawieniami regionalnymi komputera (w Polsce separatorem dziesiętnym jest zwykle przecinek).
+## Lab01 — C#
 
-### Uruchamianie
+Trzy istniejące projekty rozwiązują zadania o pięciu liczbach rosnących, równaniu liniowym i kwadratowym. Uruchomienie: `dotnet run --project Lab01/Task1/Task1.csproj` (analogicznie Task2 i Task3). Diagramy są w `Lab01/Diagrams/`.
 
-W terminalu, w katalogu głównym repozytorium, uruchom wybrane polecenie:
+## Działy kursu
 
-```powershell
-dotnet run --project Lab01/Task1/Task1.csproj
-dotnet run --project Lab01/Task2/Task2.csproj
-dotnet run --project Lab01/Task3/Task3.csproj
-```
+- [Organizacja pracy](src/01-organizacja/README.md)
+- [Debugowanie](src/02-debug/README.md)
+- [Git i współpraca](src/03-git/README.md)
+- [Portfolio HTML/CSS/JavaScript](Portfolio/index.html)
 
-- **Zadanie 1:** program pobiera pięć liczb pojedynczo i natychmiast kończy działanie, jeśli kolejna nie jest ściśle większa.
-- **Zadanie 2:** rozwiązuje `a*x+b=0`, w tym równanie tożsamościowe i sprzeczne.
-- **Zadanie 3:** obsługuje `a=0` przez sprowadzenie do równania liniowego, a dla `a≠0` rozpatruje wszystkie przypadki wyróżnika.
-- Rozgałęzienia są zapisane instrukcjami `if`/`else`, a operator warunkowy `?:` jest użyty przy wyborze wyniku.
-
-Diagramy pełnej logiki zadań 2 i 3 są w formacie SVG w `Lab01/Diagrams/`.
+Wymagany jest .NET SDK 8+. Działania na koncie GitHub, praca z partnerem, breakpointy w IDE i włączenie Pages opisano w README odpowiednich zadań.

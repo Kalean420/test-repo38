@@ -1,0 +1,3 @@
+Przykładowy wynik: 20 stopni Celsjusza
+
+Kontrole: 20 -> 20 stopni Celsjusza; 0 -> 0 stopni Celsjusza; brak wartości -> brak danych.
